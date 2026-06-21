@@ -6,6 +6,7 @@
 
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-luban-blueviolet)](skills/luban/SKILL.md)
 [![skills.sh](https://skills.sh/b/LearnPrompt/luban-skill)](https://skills.sh/LearnPrompt/luban-skill)
+[![Hermes Agent](https://img.shields.io/badge/Hermes%20Agent-compatible-green)](https://hermes-agent.nousresearch.com/docs)
 [![实战案例](https://img.shields.io/badge/%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B-ai--news--radar%20v0.7.0-green)](skills/luban/examples/ai-news-radar-case.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -57,6 +58,19 @@ Claude Code 用户也可以走 plugin marketplace（自动更新）：
 ```text
 /plugin marketplace add LearnPrompt/luban-skill
 /plugin install luban
+```
+
+Hermes Agent 用户：
+
+```bash
+hermes skills install LearnPrompt/luban-skill
+```
+
+或手动安装：
+
+```bash
+git clone https://github.com/LearnPrompt/luban-skill.git /tmp/luban-skill
+cp -r /tmp/luban-skill/skills/luban ~/.hermes/skills/productivity/luban
 ```
 
 装完对Agent说：

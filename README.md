@@ -18,33 +18,6 @@
 
 ---
 
-## 它解决什么问题
-
-你写了一个Skill，自己用着挺好。然后呢？
-
-- 发到GitHub，没人装——别人看不懂它是干嘛的；
-- README像工程说明书，没有第一屏钩子，没有能截图的产物；
-- 你说它"效果不错"，但拿不出一个能复现的证据；
-- 想优化，又不知道该先动哪里——改触发词？重写工作流？补showcase？
-
-普通的做法是"帮我润色一下"。鲁班的做法是把它当**作品**收进工坊：先挑战它值不值得雕，再看同行凭什么立足，三把尺量出短板，一刀一刀刨，每刀都要过验证门，最后发版立规矩。
-
-## 它会交付什么
-
-- **一份13节的《打磨报告》**：验料结论、同行对标表（全部带URL）、生态位判断、评分表、三个打磨方向、可直接替换的改写片段
-- **一张可截图的"出师证书"**：打磨前后分数、一句话新定位、绝活、下一步
-- **沉淀进你仓库的验证资产**：一次性的对比脚本固化成工具，判断标准立成项目明文规矩
-
-## 五个动作
-
-| 动作 | 干什么 | 一句狠话 |
-|---|---|---|
-| **验料** | 先挑战这个Skill的前提是否成立 | 朽木不可雕也，不值得就直说 |
-| **访行** | 联网找同行，看清生态位 | 闭门造车出不了好工具 |
-| **过尺** | 结构、实测、活体三把尺量分 | 绿色的CI会撒谎，要拉真实产物对账 |
-| **慢刨** | 冻结基线，改动过验证门才保留 | 量不过就回刀，绝不为显得干了活而多刨 |
-| **回炉** | 发布后留对标观察清单，下轮从反馈进 | 交活不是终点 |
-
 ## 快速开始
 
 ![luban demo](assets/demo.gif)
@@ -80,6 +53,33 @@ cp -r /tmp/luban-skill/skills/luban ~/.hermes/skills/productivity/luban
 ```
 
 鲁班会先完成验料、访行、定位、过尺，给你三个打磨方向并推荐一个——**在你选方向之前，它不会动你一行字**。
+
+## 它解决什么问题
+
+你写了一个Skill，自己用着挺好。然后呢？
+
+- 发到GitHub，没人装——别人看不懂它是干嘛的；
+- README像工程说明书，没有第一屏钩子，没有能截图的产物；
+- 你说它"效果不错"，但拿不出一个能复现的证据；
+- 想优化，又不知道该先动哪里——改触发词？重写工作流？补showcase？
+
+普通的做法是"帮我润色一下"。鲁班的做法是把它当**作品**收进工坊：先挑战它值不值得雕，再看同行凭什么立足，三把尺量出短板，一刀一刀刨，每刀都要过验证门，最后发版立规矩。
+
+## 它会交付什么
+
+- **一份13节的《打磨报告》**：验料结论、同行对标表（全部带URL）、生态位判断、评分表、三个打磨方向、可直接替换的改写片段
+- **一张可截图的"出师证书"**：打磨前后分数、一句话新定位、绝活、下一步
+- **沉淀进你仓库的验证资产**：一次性的对比脚本固化成工具，判断标准立成项目明文规矩
+
+## 五个动作
+
+| 动作 | 干什么 | 一句狠话 |
+|---|---|---|
+| **验料** | 先挑战这个Skill的前提是否成立 | 朽木不可雕也，不值得就直说 |
+| **访行** | 联网找同行，看清生态位 | 闭门造车出不了好工具 |
+| **过尺** | 结构、实测、活体三把尺量分 | 绿色的CI会撒谎，要拉真实产物对账 |
+| **慢刨** | 冻结基线，改动过验证门才保留 | 量不过就回刀，绝不为显得干了活而多刨 |
+| **回炉** | 发布后留对标观察清单，下轮从反馈进 | 交活不是终点 |
 
 ## 触发方式
 
@@ -172,6 +172,6 @@ luban-skill/
 
 [鲁班·Skill打磨](https://github.com/LearnPrompt/luban-skill) · [庖丁·博主蒸馏](https://github.com/LearnPrompt/paoding-skill) · [蔡伦·对话造纸](https://github.com/LearnPrompt/cailun-skill) · [阿福·LLM Todo](https://github.com/LearnPrompt/afu-llm-todo) · [AI雷达·零API资讯](https://github.com/LearnPrompt/ai-news-radar) · [淘金小镇·ClawHub日榜](https://github.com/LearnPrompt/skillrush-town) · [Irasutoya·正文配图](https://github.com/LearnPrompt/carl-irasutoya-illustrations) · [Humanize PPT·简报编排](https://github.com/LearnPrompt/humanize-ppt) · [CC Harness·六件套](https://github.com/LearnPrompt/cc-harness-skills)
 
-<sub>公众号「卡尔的AI沃茨」 · [X @aiwarts](https://x.com/aiwarts) · [learnprompt.pro](https://www.learnprompt.pro)</sub>
+<sub>公众号「卡尔的AI沃茨」 · X @aiwarts · <a href="https://learnprompt.pro/workshop/">learnprompt.pro/workshop</a></sub>
 
 </div>

@@ -1,5 +1,7 @@
 <div align="center">
 
+<sub>🌐 <a href="README.en.md">English</a> · 中文</sub>
+
 # 鲁班 | Luban
 
 > 把你的Skill拿到班门前，让祖师爷重新打磨一遍。
